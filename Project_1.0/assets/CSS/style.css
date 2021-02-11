@@ -1,0 +1,277 @@
+@font-face {
+  font-family: 'HelveticaNeue-Thin';
+  src: local("HelveticaNeue-Thin.otf"), url("HelveticaNeue-Thin.otf") format("opentype");
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body .container {
+  max-width: 1100px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 20px;
+  overflow: hidden;
+}
+
+body #header-wrapper {
+  background-image: url(../img/main-bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+body #header-wrapper .navbar-wrap {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 400;
+  padding: 8px 0px;
+}
+
+body #header-wrapper .navbar-wrap .custom-link a {
+  border-bottom: solid 4px transparent;
+  margin: 0 0 0 30px;
+  padding-bottom: 3px;
+  -webkit-transition: border-bottom 0.1s, color;
+  transition: border-bottom 0.1s, color;
+}
+
+body #header-wrapper .navbar-wrap .custom-link a:hover {
+  border-bottom: solid 4px #fff;
+  -webkit-transition: border-bottom 0.1s, color;
+  transition: border-bottom 0.1s, color;
+}
+
+body #header-wrapper .header-body {
+  position: relative;
+  display: inline-block;
+}
+
+body #header-wrapper .header-body h1 {
+  font-size: 45px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  padding: 0 550px 0 0;
+  margin: 90px 0 0;
+}
+
+body #header-wrapper .header-body .header-body-content {
+  font-family: 'HelveticaNeue-Thin';
+  font-size: 30px;
+  color: #fff;
+  padding: 0 670px 0 0;
+  margin: 30px 0;
+}
+
+body #header-wrapper .header-body .custom-button {
+  background-color: #353535;
+  font-size: 18px;
+  font-weight: 700;
+  color: #fff;
+  padding: 10px 25px;
+  margin: 0 0 20px 0;
+  border-radius: 35px;
+  text-decoration: none !important;
+}
+
+body #header-wrapper .header-body .custom-button .custom-button-content {
+  padding: 15px;
+}
+
+body #header-wrapper .iphone-img {
+  position: absolute;
+  top: 80px;
+  left: 620px;
+}
+
+body #header-wrapper .iphone-img .iphone-off {
+  position: relative;
+  width: 490px;
+  height: auto;
+}
+
+body #app-features-wrapper {
+  padding: 20px;
+}
+
+body #app-features-wrapper h1, body #app-features-wrapper h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body #app-features-wrapper p {
+  font-family: 'HelveticaNeue-Thin';
+}
+
+body #app-features-wrapper .app-features-main-header {
+  font-size: 52px;
+  color: #8a8a8a;
+  font-weight: 700;
+}
+
+body #app-features-wrapper .app-features-main-content {
+  font-size: 22px;
+  color: #3a3a3a;
+  font-weight: 400;
+  padding: 20px 107px;
+}
+
+body #app-features-wrapper .app-features-main-body {
+  padding: 20px 0;
+}
+
+body #app-features-wrapper .app-features-main-body .app-features-header {
+  font-size: 24px;
+  color: #1a1a1a;
+  font-weight: 700;
+  padding: 20px 0 0 0;
+}
+
+body #app-features-wrapper .app-features-main-body .app-features-body {
+  font-size: 18px;
+  color: #646464;
+  font-weight: 300;
+  padding: 25px 30px 10px;
+}
+
+body #big-nose-wrapper {
+  background: url(../img/nose-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body #big-nose-wrapper .big-nose-header {
+  font-size: 45px;
+  font-weight: 700;
+  margin: 100px 0 30px 0;
+  color: #fff;
+}
+
+body #big-nose-wrapper .big-nose-header span {
+  color: #fa7c77;
+}
+
+body #big-nose-wrapper .big-nose-content {
+  font-size: 20px;
+  font-weight: 300;
+  margin: 0 0px 35px 0;
+  color: #585858;
+}
+
+body #big-nose-wrapper .custom-button-2 {
+  background: #e64c3c;
+  font-size: 16px;
+  font-weight: 700;
+  color: #fff;
+  font-family: 'HelveticaNeue-Thin';
+  margin: 0 0 100px 15px;
+  border-radius: 20px;
+  padding: 10px 20;
+}
+
+body #footer-wrapper {
+  background-color: #3c3d48;
+  color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  list-style: none;
+  padding: 100px 0 70px;
+}
+
+body #footer-wrapper .footer-header {
+  font-size: 20px;
+  font-weight: 700;
+  padding: 60px 0 0;
+  margin: 0 0 30px 0;
+}
+
+body #footer-wrapper .footer-body-content {
+  margin: 0px;
+  padding: 0;
+  font-size: 15px;
+  font-weight: 400;
+}
+
+body #footer-wrapper .footer-body-content-1 {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+body #footer-wrapper .footer-body-content-2 {
+  font-size: 11px;
+}
+
+body #footer-wrapper .footer-body-content-3 {
+  font-size: 14px;
+  padding: 0 88px 0 0;
+  margin: 20px 0 5px 0;
+}
+
+body #footer-wrapper .footer-body-content-4 {
+  font-style: italic;
+  font-size: 13px;
+  padding: 0 60px 0 0;
+}
+
+body #footer-wrapper ul {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 30px;
+}
+
+body #footer-wrapper ul li {
+  margin: 10px 0;
+}
+
+body #footer-end-wrapper .footer-end-wrap {
+  background: #fff;
+  color: black;
+  font-size: 15px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+body #footer-end-wrapper .footer-end-wrap .custom-footer-end {
+  padding: 20px;
+}
+
+body #footer-end-wrapper .footer-end-wrap .footer-end-body {
+  margin: 0;
+  padding: 0 auto;
+}
+
+body #footer-end-wrapper .footer-end-wrap .footer-end-body .footer-end-body-content {
+  margin: 0 20px 0 20px;
+}
+
+body #footer-end-wrapper .footer-end-wrap .footer-end-body .footer-end-img {
+  margin: 0 5px 0 20px;
+}
+
+.iphone-on {
+  position: absolute;
+  width: 313px;
+  top: 115px;
+  left: 80px;
+}
+
+.iphone-btn {
+  position: absolute;
+  width: 60px;
+  height: auto;
+  right: 125px;
+  top: 0px;
+}
+
+.js-wp-2 {
+  opacity: 0;
+}
+
+.js-wp-2.animated {
+  opacity: 1;
+}
+/*# sourceMappingURL=style.css.map */
